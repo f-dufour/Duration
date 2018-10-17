@@ -1,4 +1,5 @@
-@Grab(group = 'org', module = 'jaudiotagger', version = '2.0.3')
+@GrabResolver(name='jaudiotagger-repository', root='https://dl.bintray.com/ijabz/maven')
+@Grab(group = 'net.jthink', module = 'jaudiotagger', version = '2.2.3')
 
 import org.jaudiotagger.audio.AudioFile
 import org.jaudiotagger.audio.AudioFileIO
